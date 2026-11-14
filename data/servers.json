@@ -16819,5 +16819,34 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "KissMyPost",
+    "url": "https://kissmypost.com/mcp",
+    "description": "Hosted read-only server for Reddit audience research: subreddit search by topic, member growth, audience demographics, best time to post, posting rules and brand mention counts.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "KissMyPost",
+    "tags": [
+      "reddit",
+      "audience-research",
+      "subreddits",
+      "analytics",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://kissmypost.com/api/mcp"
+    },
+    "repository": "https://github.com/krutytskyi/kissmypost-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
